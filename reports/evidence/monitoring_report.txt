@@ -1,0 +1,21 @@
+=== drift and performance report ===
+                      period: ['2019-08-01', '2019-12-01']
+                      n_days: 123
+                 outlier_pct: 52.03
+               wasserstein_X: 1.3138
+     wasserstein_X_threshold: 0.1675
+               wasserstein_y: 6658.15
+     wasserstein_y_threshold: 602.83
+               feature_drift: True
+                target_drift: True
+                  model_name: random_forest
+          train_holdout_rmse: 1030.69
+             production_rmse: 3245.85
+    production_baseline_rmse: 7074.3
+         retrain_recommended: True
+
+=== log summary ===
+                       train: {'log': 'train-2026-10.log', 'entries': 11, 'mean_runtime_s': 3.18, 'mean_rmse': 270.06}
+                     predict: {'log': 'predict-2026-10.log', 'entries': 2, 'mean_runtime_s': 0.0}
+
+saved reports/figures/production_performance.png

@@ -1,0 +1,6 @@
+# AAVAIL Revenue Forecast | Development requirements (notebooks)
+-r requirements.txt
+jupyter
+nbformat
+nbconvert
+ipykernel

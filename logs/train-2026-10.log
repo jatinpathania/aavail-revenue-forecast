@@ -1,0 +1,12 @@
+unique_id,timestamp,tag,period,model_name,eval_test,runtime,model_version,model_version_note
+7442d0f4-53a9-426c-b160-208d762ec315,1793158179.3744884,all,"('2017-11-28', '2019-07-01')",random_forest,"{'rmse': 1030.69, 'mae': 838.85}",000:00:04,0.1,best of baseline / ridge / random forest / gradient boosting
+1e9cb63e-5636-4951-962c-e4f656cfdd35,1793158183.1109004,eire,"('2017-11-28', '2019-07-01')",baseline,"{'rmse': 234.53, 'mae': 222.53}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+81ba26f1-8e9d-4a0a-830c-2075495513a9,1793158186.962776,france,"('2017-11-28', '2019-07-01')",linear,"{'rmse': 113.49, 'mae': 88.02}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+4811d8b8-17a2-4da8-8135-c9d6dfb01ed0,1793158191.1004553,germany,"('2017-11-28', '2019-07-01')",random_forest,"{'rmse': 186.75, 'mae': 148.65}",000:00:04,0.1,best of baseline / ridge / random forest / gradient boosting
+2254b43e-a92b-4a30-ad49-d5d456907cc9,1793158194.6829314,hong_kong,"('2017-11-28', '2019-07-01')",linear,"{'rmse': 90.62, 'mae': 79.31}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+49fae06b-f88e-4ca1-89e9-74ec3da86157,1793158198.382343,netherlands,"('2017-11-28', '2019-07-01')",baseline,"{'rmse': 70.45, 'mae': 61.53}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+bafca45e-d47c-423a-9bb6-6895ce799f85,1793158202.0494487,norway,"('2017-11-28', '2019-07-01')",linear,"{'rmse': 108.08, 'mae': 91.31}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+917ba640-b134-42e0-a57f-e640fe678b30,1793158205.5803308,portugal,"('2017-11-28', '2019-07-01')",baseline,"{'rmse': 78.45, 'mae': 70.43}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+519bec16-ada4-4a73-b689-a64157e9efbe,1793158209.1097739,singapore,"('2017-11-28', '2019-07-01')",baseline,"{'rmse': 40.73, 'mae': 34.62}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+403a6730-db4b-4e8f-bb7b-cb472b5553ce,1793158212.722613,spain,"('2017-11-28', '2019-07-01')",baseline,"{'rmse': 69.18, 'mae': 58.83}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting
+f50f4039-e758-4387-99f7-b99c1655ab8d,1793158216.5945003,united_kingdom,"('2017-11-28', '2019-07-01')",linear,"{'rmse': 947.64, 'mae': 821.7}",000:00:03,0.1,best of baseline / ridge / random forest / gradient boosting

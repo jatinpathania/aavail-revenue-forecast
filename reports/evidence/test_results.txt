@@ -1,0 +1,44 @@
+... training model (test mode)
+... test flag on: training test models only
+... training model for all
+... training model for united_kingdom
+... test flag on: training test models only
+... training model for all
+... training model for united_kingdom
+test_01_index (unittests.ApiTests.ApiTest.test_01_index) ... ok
+test_02_train (unittests.ApiTests.ApiTest.test_02_train) ... ok
+test_03_predict_all_countries (unittests.ApiTests.ApiTest.test_03_predict_all_countries) ... ok
+test_04_predict_single_country (unittests.ApiTests.ApiTest.test_04_predict_single_country) ... ok
+test_05_predict_country_name_with_space (unittests.ApiTests.ApiTest.test_05_predict_country_name_with_space) ... ok
+test_06_predict_empty_body (unittests.ApiTests.ApiTest.test_06_predict_empty_body) ... ok
+test_07_predict_missing_keys (unittests.ApiTests.ApiTest.test_07_predict_missing_keys) ... ok
+test_08_predict_unknown_country (unittests.ApiTests.ApiTest.test_08_predict_unknown_country) ... ok
+test_09_predict_date_out_of_range (unittests.ApiTests.ApiTest.test_09_predict_date_out_of_range) ... ok
+test_10_logs (unittests.ApiTests.ApiTest.test_10_logs) ... ok
+test_11_logs_not_found (unittests.ApiTests.ApiTest.test_11_logs_not_found) ... ok
+test_12_monitor (unittests.ApiTests.ApiTest.test_12_monitor) ... ok
+test_01_test_paths_are_isolated (unittests.LoggerTests.LoggerTest.test_01_test_paths_are_isolated) ... ok
+test_02_train_log_created (unittests.LoggerTests.LoggerTest.test_02_train_log_created) ... ok
+test_03_train_log_content (unittests.LoggerTests.LoggerTest.test_03_train_log_content) ... ok
+test_04_predict_log_created (unittests.LoggerTests.LoggerTest.test_04_predict_log_created) ... ok
+test_05_predict_log_content (unittests.LoggerTests.LoggerTest.test_05_predict_log_content) ... ok
+test_06_production_logs_untouched (unittests.LoggerTests.LoggerTest.test_06_production_logs_untouched) ... ok
+test_07_bad_log_kind (unittests.LoggerTests.LoggerTest.test_07_bad_log_kind) ... ok
+test_01_train (unittests.ModelTests.ModelTest.test_01_train)
+test models are saved in the isolated test folder ... ok
+test_02_production_models_untouched (unittests.ModelTests.ModelTest.test_02_production_models_untouched)
+training in test mode must not modify production models ... ok
+test_03_multiple_models_compared (unittests.ModelTests.ModelTest.test_03_multiple_models_compared)
+every candidate (including the baseline) is evaluated ... ok
+test_04_load (unittests.ModelTests.ModelTest.test_04_load) ... ok
+test_05_predict_all (unittests.ModelTests.ModelTest.test_05_predict_all) ... ok
+test_06_predict_country (unittests.ModelTests.ModelTest.test_06_predict_country) ... ok
+test_07_predict_bad_country (unittests.ModelTests.ModelTest.test_07_predict_bad_country) ... ok
+test_08_predict_bad_date (unittests.ModelTests.ModelTest.test_08_predict_bad_date) ... ok
+test_09_features (unittests.ModelTests.ModelTest.test_09_features) ... ok
+test_10_compare_models_returns_sorted (unittests.ModelTests.ModelTest.test_10_compare_models_returns_sorted) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 23.584s
+
+OK

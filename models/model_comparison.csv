@@ -1,0 +1,45 @@
+country,model,rmse,mae,best_params
+all,random_forest,1030.6883377886913,838.8538760683764,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+all,gradient_boosting,1036.9349579788418,814.6819535635918,"{'reg__learning_rate': 0.1, 'reg__n_estimators': 100}"
+all,linear,1320.0425002351362,1069.8095679077971,{'reg__alpha': 10.0}
+all,baseline,2967.0703806324373,2840.1473380857637,{}
+eire,baseline,234.53073095025206,222.52738505747115,{}
+eire,gradient_boosting,236.69122122410747,157.83144311814078,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+eire,random_forest,242.53441692027542,164.50214054876864,"{'reg__max_depth': 10, 'reg__n_estimators': 100}"
+eire,linear,249.5012577636223,218.08005398932605,{'reg__alpha': 10.0}
+france,linear,113.4899281448507,88.02211425926838,{'reg__alpha': 10.0}
+france,baseline,120.88482430094336,94.38121297524314,{}
+france,gradient_boosting,123.81611179894612,108.12955151514525,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+france,random_forest,134.3329332891631,115.76653034188033,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+germany,random_forest,186.7511670859821,148.65138290598293,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+germany,gradient_boosting,189.64292360084616,149.95404354341764,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+germany,baseline,191.1121019398456,171.82403790893008,{}
+germany,linear,232.52010195070002,207.70442547503754,{'reg__alpha': 10.0}
+hong_kong,linear,90.62029039882094,79.30632574156317,{'reg__alpha': 10.0}
+hong_kong,baseline,94.34467936863783,84.84024738432065,{}
+hong_kong,random_forest,132.7299776816775,120.40394575498573,"{'reg__max_depth': None, 'reg__n_estimators': 50}"
+hong_kong,gradient_boosting,157.9001165390517,138.90100811083946,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 200}"
+netherlands,baseline,70.45290651494477,61.53065134099615,{}
+netherlands,linear,110.13604219812537,89.7878587506904,{'reg__alpha': 10.0}
+netherlands,random_forest,131.62969180599893,119.97192546130022,"{'reg__max_depth': 10, 'reg__n_estimators': 50}"
+netherlands,gradient_boosting,159.23735412028668,146.08191600522042,"{'reg__learning_rate': 0.1, 'reg__n_estimators': 200}"
+norway,linear,108.0751138018172,91.31243999782805,{'reg__alpha': 10.0}
+norway,gradient_boosting,155.89115776394857,135.93554559611258,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+norway,random_forest,168.19677213487037,136.7430308644376,"{'reg__max_depth': 10, 'reg__n_estimators': 100}"
+norway,baseline,169.16119421533313,145.78272859563802,{}
+portugal,baseline,78.45281336241958,70.42719274977892,{}
+portugal,linear,141.48088735865437,128.72388118119625,{'reg__alpha': 10.0}
+portugal,gradient_boosting,178.12901821923205,168.451915010243,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+portugal,random_forest,202.39943839584598,196.02240915750914,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+singapore,baseline,40.734055001173175,34.61754310344828,{}
+singapore,linear,79.15563694835508,63.198996016059475,{'reg__alpha': 10.0}
+singapore,gradient_boosting,172.88753459880382,165.3385280500103,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+singapore,random_forest,194.4999909438169,188.06445982906,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+spain,baseline,69.1802277945882,58.83257110226938,{}
+spain,random_forest,78.20663437873574,62.933135716320706,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+spain,linear,82.3603871375639,74.69106982185087,{'reg__alpha': 10.0}
+spain,gradient_boosting,109.03000474918363,92.54385157087565,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 100}"
+united_kingdom,linear,947.6432617062528,821.6995608326813,{'reg__alpha': 10.0}
+united_kingdom,random_forest,953.4219844963351,737.802947863248,"{'reg__max_depth': None, 'reg__n_estimators': 100}"
+united_kingdom,gradient_boosting,1005.0063049747174,831.7612322909043,"{'reg__learning_rate': 0.05, 'reg__n_estimators': 200}"
+united_kingdom,baseline,1959.861448577398,1856.3960040893016,{}

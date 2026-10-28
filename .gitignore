@@ -1,0 +1,19 @@
+# AAVAIL Revenue Forecast | Git ignore rules
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# generated artefacts (rebuilt by `python model.py` / the Docker build)
+models/*.joblib
+models/test/
+logs/test/
+data/*/ts-data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

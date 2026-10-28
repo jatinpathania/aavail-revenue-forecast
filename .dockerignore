@@ -1,0 +1,14 @@
+.git
+.gitignore
+**/__pycache__
+**/.ipynb_checkpoints
+*.pyc
+.venv
+venv
+models/*.joblib
+models/test
+logs/*.log
+logs/test
+data/*/ts-data
+reports/
+notebooks/
